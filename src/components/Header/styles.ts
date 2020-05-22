@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 interface ContainerProps {
   size?: 'small' | 'large';
@@ -17,18 +17,38 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      #list {
+        ${() =>
+          window.location.href === 'http://localhost:3000/' &&
+          css`
+            opacity: 1;
+            font-weight: 600;
+          `}
+      }
+
+      #import {
+        ${() =>
+          window.location.href === 'http://localhost:3000/import' &&
+          css`
+            opacity: 1;
+            font-weight: 600;
+          `}
+      }
       a {
         color: #fff;
         text-decoration: none;
         font-size: 16px;
-        transition: opacity 0.2s;
+        font-family: Poppins;
+        font-style: normal;
+        opacity: 0.8;
 
         & + a {
           margin-left: 32px;
         }
 
         &:hover {
-          opacity: 0.6;
+          padding-bottom: 10px;
+          border-bottom: 2px solid #ff872c;
         }
       }
     }
