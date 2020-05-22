@@ -13,7 +13,7 @@ A Challenge about ReactJS fundamentals from RocketSeat GoStack
  
  - Na página de listagem ele pode ver as suas entradas, saídas, e seu balanço total. Além de ver todas as transações já efetuadas.
  
- - Na página de importação o usuário pode arrastar um arquivo csv e importá-lo, adicionando as transações no arquivo para o banco de dados. Os arquivos devem estar no seguinte modelo `https://github.com/Rocketseat/bootcamp-gostack-desafios/blob/master/desafio-database-upload/assets/file.csv`
+ - Na página de importação o usuário pode arrastar um arquivo csv e importá-lo, adicionando as transações no arquivo para o banco de dados. Os arquivos devem estar no seguinte [modelo](https://github.com/Rocketseat/bootcamp-gostack-desafios/blob/master/desafio-database-upload/assets/file.csv).
   
 
 ## Instalação
